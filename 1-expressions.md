@@ -15,26 +15,25 @@
 > false
 
 **f)** `++x == x++`
-> true UNLESS x is non-numeric string
+> true
 
 **g)** `"1"+x == 1+x`
-> true when x is any string
+> true
 
 **h)** `"0"+1 == 1`
 > true
 
 **i)** `(typeof (x+1))==(typeof x)`	
-> true if x is number or string
+> true
 
 **j)** `(x-=x)? x: (typeof x)`
 > "number"
 
 **k)** `(x*1 == x) || ((typeof x) != "number")`
-> true UNLESS x is NaN
+> true
 
 **l)** `(x=(typeof (x+(typeof x))))==x`
 > true
 
 **m)** `x=-1,0,-x---1+'0'+x`
-> "00-2"
 
